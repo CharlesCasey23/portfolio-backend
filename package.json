@@ -4,10 +4,12 @@
   "version": "0.1.0",
   "description": "Backend for my portfolio built with Strapi",
   "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+    "strapi:dev": "strapi develop",
+    "strapi:start": "strapi start",
+    "strapi:build": "strapi build",
+    "strapi": "strapi",
+    "compose:up":"docker compose up --force-recreate",
+    "compose:down":"docker compose down"
   },
   "devDependencies": {},
   "dependencies": {

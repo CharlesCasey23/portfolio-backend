@@ -113,3 +113,10 @@ dist
 build
 .strapi-updater.json
 .editorconfig
+
+############################
+# Docker
+############################
+
+backend
+frontend
